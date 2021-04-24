@@ -1,15 +1,15 @@
-%define		kdeappsver	20.12.3
+%define		kdeappsver	21.04.0
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		bomber
 Summary:	Single player arcade game
 Name:		ka5-%{kaname}
-Version:	20.12.3
+Version:	21.04.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	891a406a20c348cf02f80ed21bec3e3e
+# Source0-md5:	729aabc38913e7eeb5072e42d1736c1b
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
@@ -75,6 +75,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/32x32/apps/bomber.png
 %{_iconsdir}/hicolor/48x48/apps/bomber.png
 %{_iconsdir}/hicolor/64x64/apps/bomber.png
-%dir %{_datadir}/kxmlgui5/bomber
-%{_datadir}/kxmlgui5/bomber/bomberui.rc
 %{_datadir}/metainfo/org.kde.bomber.appdata.xml

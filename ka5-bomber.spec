@@ -45,7 +45,7 @@ of the plane and the height of the buildings.
 
 %description -l pl.UTF-8
 Bomber jest jednoosobową grą zręcznościową. Gracz bombarduje różne miasta
-samolotem, bombardowane miasta kurczą się.
+samolotem, z każdym przelotem wysokość na której leci bombowiec obniża się.
 
 Celem gry jest zniszczenie wszystkich budynków, żeby przejść do następnego
 poziomu. Każdy następny poziom jest coraz trudniejszy przez zwiększającą

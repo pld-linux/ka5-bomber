@@ -43,6 +43,14 @@ The goal of the game is to destroy all the buildings and advance to
 the next level. Each level gets a bit harder by increasing the speed
 of the plane and the height of the buildings.
 
+%description -l pl.UTF-8
+Bomber jest jednoosobową grą zręcznościową. Gracz bombarduje różne miasta
+samolotem, bombardowane miasta kurczą się.
+
+Celem gry jest zniszczenie wszystkich budynków, żeby przejść do następnego
+poziomu. Każdy następny poziom jest coraz trudniejszy przez zwiększającą
+się prędkość samolotu i wyższe budynki.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
